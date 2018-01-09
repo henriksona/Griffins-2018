@@ -15,10 +15,10 @@ public class RobotMap {
 	// following variables to use with your drivetrain subsystem.
 	// public static int leftMotor = 1;
 	// public static int rightMotor = 2;
-	public static VictorSP motorL1 =  new VictorSP(1);
-	public static VictorSP motorL2 =  new VictorSP(2);
-	public static VictorSP motorR1 =  new VictorSP(3);
-	public static VictorSP motorR2 =  new VictorSP(4);
+	public static VictorSP motorL1 =  new VictorSP(0);
+	public static VictorSP motorL2 =  new VictorSP(1);
+	public static VictorSP motorR1 =  new VictorSP(2);
+	public static VictorSP motorR2 =  new VictorSP(3);
 	public static SpeedControllerGroup left = new SpeedControllerGroup(motorL1, motorL2);
 	public static SpeedControllerGroup right = new SpeedControllerGroup(motorR1, motorR2);
 	public static DifferentialDrive mainDrive = new DifferentialDrive(left, right);
